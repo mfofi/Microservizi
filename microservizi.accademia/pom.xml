@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.prova.microservizi</groupId>
-	<artifactId>microservizi.ciao</artifactId>
+	<artifactId>microservizi.accademia</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>microservizi.ciao</name>
-	<description>microservizi.ciao</description>
+	<name>microservizi.accademia</name>
+	<description>microservizi.accademia</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

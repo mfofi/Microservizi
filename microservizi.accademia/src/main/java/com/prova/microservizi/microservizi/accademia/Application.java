@@ -1,4 +1,4 @@
-package com.prova.microservizi.microservizi.ciao;
+package com.prova.microservizi.microservizi.accademia;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
