@@ -1,4 +1,4 @@
-package com.prova.microservizi.microservizi.accademia.entity;
+package microservizi.accademia.entity;
 
 import javax.persistence.*;
 
@@ -7,8 +7,6 @@ import lombok.NoArgsConstructor;
 
 @Entity(name="Accademia")
 @Table(name="ACCADEMIA")
-@AllArgsConstructor
-@NoArgsConstructor
 public class Accademia {
 	
 	@Id
@@ -16,13 +14,13 @@ public class Accademia {
 	@Column(name="id_accademia")
 	private Long idAccademia;
 	
-	@Column(name="nome_accademia")
+	@Column(name="nome_accademia", nullable=false, length=45)
 	private String nomeAccademia;
 	
-	@Column(name="indirizzo_accademia")
+	@Column(name="indirizzo_accademia", nullable=false, length=45)
 	private String indirizzoAccademia;
 	
-	@Column(name="tipologia_accademia")
+	@Column(name="tipologia_accademia", nullable=false, length=45)
 	private String tipologiaAccademia;
 
 	public Long getIdAccademia() {

@@ -1,8 +1,8 @@
-package com.prova.microservizi.microservizi.accademia.service;
+package microservizi.accademia.service;
 
 import java.util.List;
 
-import com.prova.microservizi.microservizi.accademia.entity.Accademia;
+import microservizi.accademia.entity.Accademia;
 
 public interface AccademiaService {
 	

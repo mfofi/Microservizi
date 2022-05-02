@@ -1,4 +1,4 @@
-package com.prova.microservizi.microservizi.accademia.controller;
+package microservizi.accademia.controller;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.prova.microservizi.microservizi.accademia.entity.Accademia;
-import com.prova.microservizi.microservizi.accademia.service.AccademiaService;
+import microservizi.accademia.entity.Accademia;
+import microservizi.accademia.service.AccademiaService;
 
 @RestController
 @RequestMapping("/accademia")

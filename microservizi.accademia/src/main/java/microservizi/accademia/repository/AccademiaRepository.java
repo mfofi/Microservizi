@@ -1,11 +1,11 @@
-package com.prova.microservizi.microservizi.accademia.repository;
+package microservizi.accademia.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.prova.microservizi.microservizi.accademia.entity.Accademia;
+import microservizi.accademia.entity.Accademia;
 
 @Repository
 public interface AccademiaRepository extends JpaRepository<Accademia, Long> {

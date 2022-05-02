@@ -1,4 +1,4 @@
-package com.prova.microservizi.microservizi.accademia.service;
+package microservizi.accademia.service;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.prova.microservizi.microservizi.accademia.entity.Accademia;
-import com.prova.microservizi.microservizi.accademia.repository.AccademiaRepository;
+import microservizi.accademia.entity.Accademia;
+import microservizi.accademia.repository.AccademiaRepository;
 
 @Service
 @Transactional
